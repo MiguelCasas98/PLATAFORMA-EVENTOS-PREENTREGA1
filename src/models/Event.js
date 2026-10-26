@@ -1,5 +1,7 @@
-export default {
-  title: "",
-  description: "",
-  date: ""
-};
+export default class Event {
+  constructor({ title, description, date }) {
+    this.title = title;
+    this.description = description;
+    this.date = date;
+  }
+}

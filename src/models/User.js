@@ -1,5 +1,7 @@
-export default {
-  firstName: "",
-  lastName: "",
-  email: ""
-};
+export default class User {
+  constructor({ firstName, lastName, email }) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.email = email;
+  }
+}
